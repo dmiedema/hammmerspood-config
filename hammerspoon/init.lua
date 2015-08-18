@@ -27,7 +27,7 @@ hs.hotkey.bind({'cmd', 'alt', 'ctrl'}, 'H', function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.x = f.x - 10
+  f.x = f.x - 50
   
   win:setFrame(f)
 end)
@@ -36,7 +36,7 @@ hs.hotkey.bind({'cmd', 'alt', 'ctrl'}, 'J', function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.y = f.y + 10
+  f.y = f.y + 50
   
   win:setFrame(f)
 end)
@@ -45,7 +45,7 @@ hs.hotkey.bind({'cmd', 'alt', 'ctrl'}, 'K', function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.y = f.y - 10
+  f.y = f.y - 50
   
   win:setFrame(f)
 end)
@@ -54,7 +54,7 @@ hs.hotkey.bind({'cmd', 'alt', 'ctrl'}, 'L', function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.x = f.x + 10
+  f.x = f.x + 50
   
   win:setFrame(f)
 end)
@@ -64,7 +64,7 @@ hs.hotkey.bind({'cmd', 'alt', 'shift'},  'H', function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.w = f.w - 10
+  f.w = f.w - 50
   win:setFrame(f)
 end)
 
@@ -72,23 +72,23 @@ hs.hotkey.bind({'cmd', 'alt', 'shift'},  'J', function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.h = f.h - 10
-  f.y = f.y + 10
+  f.h = f.h - 50
+  f.y = f.y + 50
   win:setFrame(f)
 end)
 hs.hotkey.bind({'cmd', 'alt', 'shift'},  'K', function() 
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.h = f.h - 10
+  f.h = f.h - 50
   win:setFrame(f)
 end)
 hs.hotkey.bind({'cmd', 'alt', 'shift'},  'L', function() 
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.w = f.w - 10
-  f.x = f.x + 10
+  f.w = f.w - 50
+  f.x = f.x + 50
   win:setFrame(f)
 end)
 
@@ -97,8 +97,8 @@ hs.hotkey.bind({'ctrl', 'alt', 'shift'},  'H', function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.w = f.w + 10
-  f.x = f.x - 10
+  f.w = f.w + 50
+  f.x = f.x - 50
   win:setFrame(f)
 end)
 
@@ -106,7 +106,7 @@ hs.hotkey.bind({'ctrl', 'alt', 'shift'},  'J', function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.h = f.h + 10
+  f.h = f.h + 50
   
   win:setFrame(f)
 end)
@@ -114,15 +114,15 @@ hs.hotkey.bind({'ctrl', 'alt', 'shift'},  'K', function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.h = f.h + 10
-  f.y = f.y - 10
+  f.h = f.h + 50
+  f.y = f.y - 50
   win:setFrame(f)
 end)
 hs.hotkey.bind({'ctrl', 'alt', 'shift'},  'L', function() 
   local win = hs.window.focusedWindow()
   local f = win:frame()
 
-  f.w = f.w + 10
+  f.w = f.w + 50
   
   win:setFrame(f)
 end)
